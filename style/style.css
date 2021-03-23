@@ -275,6 +275,8 @@ body {
 
 .tab-content {
     margin-top: 30px;
+    background: var(--yellow);
+    padding: 10px 0;
 }
 /* TABS end */
 /* ===================== */
@@ -321,31 +323,53 @@ body {
 /* ===================== */
 
 /* FOOTER start */
-footer {
+.footer {
     background: var(--dark);
     margin-top: 14px;
-    padding: 20px 0;
+    padding-bottom: 20px;
 }
 
-.menu {
+.footer .content__title {
+    color: var(--yellow);
+    margin-bottom: 0;    
+}
+
+.footer-menu {
     list-style: none;
     padding: 0;
-    margin: 20px 0 0 0;
 }
 
-.menu__item {
-    line-height: 15px;
+.footer-menu__link {
+    font-family: var(--ps400);
+    font-size: 18px;
+    color: var(--yellow);
+    text-transform: uppercase;
+    margin: 30px 20px 0 20px;
+    transition: 0.5;
+    display: flex;
+    align-items: center;
 }
 
-.menu__link_margin {
-    display: inline-block;
-    margin: 0 27px;
-    margin-bottom: 20px;
+.footer-menu__link i {
+    flex-shrink: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid var(--yellow);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
 }
 
-/* .menu__link_margin_10 {
-    margin: 0 10px;
-} */
+.footer-menu__link:hover i {
+    border-color: var(--white);
+}
+
+.footer-menu__link:hover {
+    color: var(--white);
+}
+
 /* FOOTER end */
 /* ===================== */
 
