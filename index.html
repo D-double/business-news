@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/all.min.css">
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/media.css">
+</head>
+
+<body>
+    <header class="d-flex flex-column min-vh-100">
+        <nav class="navbar navbar-expand-md">
+            <div class="container">
+                <a class="logo" href="#"><span class="logo__text">Bussines</span> NEWS</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="far fa-bars"></i>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="menu__link" href="#history">история</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="menu__link" href="#section">РАЗДЕЛЫ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="menu__link" href="#motivation">Мотивации</a>
+                        </li>
+                        <!-- <li class="nav-item dropdown">
+                            <a class="menu__link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                Мотивации
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="tel:+998901234567">+ 998 90 123 45 67</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="mailto:mymail@mail.my">mymail@mail.my</a>
+                            </div>
+                        </li> -->
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="header__info d-flex flex-column justify-content-center flex-grow-1">
+            <div class="header__bg"></div>
+            <div class="container header__text">
+                <div class="row">
+                    <h1 class="header__title col-12">Идей много, а истина одна</h1>
+                    <p class="header__desctiption col-lg-8">Бизнес в интернете или в реальной жизни, неважно где и когда ты решил этим заняться, главное, что ты готов идти вперед и работать над собой.</p>
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="container" id="history">
+            <div class="row justify-content-center">
+                <article class="col-lg-10 col-12 content d-flex flex-column align-items-center">
+                    <h2 class="content__title">история</h2>
+                    <p class="content__description">Тут собраны истории из личного опыта предпринимателей различных сфер: красота, спорт, еда. Они рассказывают, как начинали бизнес, с какими проблемами столкнулись и как их решили, делятся секретами продвижения и тайм-менеджмента.</p>
+
+                </article>
+            </div>
+        </section>
+        <section class="slider">
+            <div class="container">
+                <div id="carouselExampleCaptions" class="carousel slide d-flex align-items-center" data-ride="carousel">
+                    <a class="col-1 d-none d-md-flex" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                        <i class="fad fa-angle-left slider__button"></i>
+                    </a>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-xl-5 col-lg-6 col-12">
+                                    <img src="images/slider-1.webp" alt="" class="w-100 h-100 slider__img">
+                                </div>
+                                <div class="col-xl-7 col-lg-6 col-12">
+                                    <h3 class="slider__title"><span class="slider__title_color_yellow">Как студентам и стартаперам-новичкам выстрелить</span>
+                                        И попасть в элиту мирового бизнеса</h3>
+                                    <p class="slider__description">Кем мы только не мечтали стать в детстве! Одни — пилотами пассажирских лайнеров, другие — реставраторами или экспертами в области искусства. Но были (и остаются) те, кто хочет придумать что-то новое, вывести на рынок новый сервис или продукт, запустить собственное дело. И их число только растет. В совместном проекте с департаментом предпринимательства и инновационного развития города Москвы рассказываем, где учиться предпринимательству и к чьим советам в этой области стоит прислушаться.</p>
+                                    <a href="https://www.the-village.ru/city/specials/dpir-s1129" class="slider__link">Читать далее</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row flex-row-reverse">
+                                <div class="col-xl-5 col-lg-6 col-12">
+                                    <img src="images/slider-2.webp" alt="" class="w-100 h-100 slider__img">
+                                </div>
+                                <div class="col-xl-7 col-lg-6 col-12">
+                                    <h3 class="slider__title"><span class="slider__title_color_yellow">«Счастлива благодаря котам»:</span> Я работаю котоняней</h3>
+                                    <p class="slider__description">Коты — независимые и при этом очень хрупкие создания. За ними интересно наблюдать, с ними интересно общаться. Нет такого кота, про которого я бы сказала: он мне не нравится. Я полностью подстроилась под котов.</p>
+                                    <a href="https://www.the-village.ru/people/opyt/cat-nanny" class="slider__link">Читать далее</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-xl-5 col-lg-6 col-12">
+                                    <img src="images/slider-3.webp" alt="" class="w-100 h-100 slider__img">
+                                </div>
+                                <div class="col-xl-7 col-lg-6 col-12">
+                                    <h3 class="slider__title"><span class="slider__title_color_yellow">«Я нашел работу необычным способом»</span> На экскурсии, в Tinder и во время подработки сторожем</h3>
+                                    <p class="slider__description">Обычно в поисках работы горожане идут на сайты с вакансиями, размещают объявления в соцсетях и ищут помощи e знакомых. Мы нашли истории людей, которые нашли работу в необычных местах и ситуациях.</p>
+                                    <a href="https://www.the-village.ru/business/rabota/strannyy-sposob-nayti-rabotu" class="slider__link">Читать далее</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="col-1 d-none d-md-flex justify-content-end" href="#carouselExampleCaptions" role="button"
+                        data-slide="next">
+                        <i class="fad fa-angle-right slider__button"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="container" id="section">
+            <div class="row justify-content-center">
+                <article class="col-lg-10 col-12 content d-flex flex-column align-items-center">
+                    <h2 class="content__title">РАЗДЕЛЫ</h2>
+                    <p class="content__description">Любой бизнес начинается с идеи, выбора направления и организации своего дела. Если вы уже размышляете о собственном бизнесе, то выберите направление и смело идите вперед.</p>
+                </article>
+            </div>
+        </section>
+        <section class="tabs">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <ul class="nav col-12 col-lg-7 justify-content-around" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <a class="tabs__link active" data-toggle="tab" href="#town" role="tab">город</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="tabs__link" data-toggle="tab" href="#people" role="tab">люди</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="tabs__link" data-toggle="tab" href="#bussines" role="tab">бизнес</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="tabs__link" data-toggle="tab" href="#entertainment" role="tab">развлечения</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="tabs__link" data-toggle="tab" href="#food" role="tab">еда</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="tabs__link" data-toggle="tab" href="#fashion" role="tab">стиль</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="tabs__link" data-toggle="tab" href="#children" role="tab">дети</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="town" role="tabpanel">
+                    <div class="container-fluid">
+                        <div class="row justify-content-center">
+                            <div class="col-md-6 col-12">
+                                <img src="images/tab-1.webp" alt="" class="tabs__img w-100 h-100">
+                            </div>
+                            <div class="col-md-6 col-11">
+                                <div class="tabs__info d-flex flex-column justify-content-between align-items-start">
+                                    <div>
+                                        <h3 class="tabs__title">Почему формат коливингов становится все популярнее</h3>
+                                        <p class="tabs__description">«Коливинг» переводится как «совместное проживание». Но в одной квартире с вами в AFI Tower никто не поселится. Речь идет об общей инфраструктуре для жильцов. Формат уже несколько десятилетий популярен на Западе. В Нью-Йорке в подобных домах живут те, чей годовой доход превышает миллион долларов.</p>
+                                    </div>
+                                    <a href="https://www.the-village.ru/city/specials/afi-tower-1198" class="tabs__button">подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="people" role="tabpanel">
+                    <div class="container-fluid">
+                        <div class="row justify-content-center">
+                            <div class="col-md-6 col-12">
+                                <img src="images/tab-2.webp" alt="" class="tabs__img w-100 h-100">
+                            </div>
+                            <div class="col-md-6 col-11">
+                                <div class="tabs__info d-flex flex-column justify-content-between align-items-start">
+                                    <div>
+                                        <h3 class="tabs__title">Хвалить себя и других</h3>
+                                        <p class="tabs__description">Комплименты сделанной работе могут как вдохновить человека на новые свершения, так и смутить, заставить сомневаться в своих способностях. При этом мы очень часто нуждаемся в добром слове и одобрении — они помогают победить сомнения, заглушить голос самокритики, осознать свои достижения и двигаться дальше.</p>
+                                    </div>
+                                    <a href="https://www.the-village.ru/people/good-habbit/pozitivnoe-podkreplenie" class="tabs__button">подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="bussines" role="tabpanel">
+                    <div class="container-fluid">
+                        <div class="row justify-content-center">
+                            <div class="col-md-6 col-12">
+                                <img src="images/tab-3.webp" alt="" class="tabs__img w-100 h-100">
+                            </div>
+                            <div class="col-md-6 col-11">
+                                <div class="tabs__info d-flex flex-column justify-content-between align-items-start">
+                                    <div>
+                                        <h3 class="tabs__title">Распределять свои доходы правильно</h3>
+                                        <p class="tabs__description">На этот раз разбираемся, как начать копить деньги так, чтобы их хватало и на повседневные нужды, и на развлечения, и на важные финансовые цели. Основатель компании «Деньги Вперед» Павел Гужиков рассказывает о том, как распределять свои доходы по принципу 50/30/20.</p>
+                                    </div>
+                                    <a href="https://www.the-village.ru/business/good-habbit/traty" class="tabs__button">подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="entertainment" role="tabpanel">
+                    <div class="container-fluid">
+                        <div class="row justify-content-center">
+                            <div class="col-md-6 col-12">
+                                <img src="images/tab-4.webp" alt="" class="tabs__img w-100 h-100">
+                            </div>
+                            <div class="col-md-6 col-11">
+                                <div class="tabs__info d-flex flex-column justify-content-between align-items-start">
+                                    <div>
+                                        <h3 class="tabs__title">Рок-н-рольщики</h3>
+                                        <p class="tabs__description">Если бы каждый фильм о взрослении, которые снимаются сотнями в год, был хотя бы наполовину хорош, как «Рок-н-рольщики», можно было бы никогда не задумываться, что посмотреть вечером. Стопроцентный краудплизер — про всех, для всех и на все случаи жизни — поражает внезапной непосредственностью, как разговор с не по годам умным и проницательным подростком.</p>
+                                    </div>
+                                    <a href="https://www.the-village.ru/weekend/films/sing-strit" class="tabs__button">подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="food" role="tabpanel">
+                    <div class="container-fluid">
+                        <div class="row justify-content-center">
+                            <div class="col-md-6 col-12">
+                                <img src="images/tab-5.webp" alt="" class="tabs__img w-100 h-100">
+                            </div>
+                            <div class="col-md-6 col-11">
+                                <div class="tabs__info d-flex flex-column justify-content-between align-items-start">
+                                    <div>
+                                        <h3 class="tabs__title">Эксклюзив, индийская кухня, кебабы</h3>
+                                        <p class="tabs__description">Раньше гости предпочитали моноконцепции: в ресторан приходили на ужин, за суши — в японский ресторан, в барах собирались на аперитив, потом шли в клуб, а после — завтракали в кофейнях. Сейчас же мы видим, что заведение может объединять множество форматов.</p>
+                                    </div>
+                                    <a href="https://www.the-village.ru/food/the-village-guide/trendy-vesny-shef-povara" class="tabs__button">подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="fashion" role="tabpanel">
+                    <div class="container-fluid">
+                        <div class="row justify-content-center">
+                            <div class="col-md-6 col-12">
+                                <img src="images/tab-6.webp" alt="" class="tabs__img w-100 h-100">
+                            </div>
+                            <div class="col-md-6 col-11">
+                                <div class="tabs__info d-flex flex-column justify-content-between align-items-start">
+                                    <div>
+                                        <h3 class="tabs__title">От пластика до «бриллиантов»</h3>
+                                        <p class="tabs__description">Локальная ювелирная история молодых мастеров, которые по-новому видят украшения из драгоценных и полудрагоценных материалов. Многие инди-марки со временем превратились в большие бренды и по-прежнему продолжают свое дело, выпуская полноценные коллекции и серии украшений. Но и новые имена продолжают появляться каждый год.</p>
+                                    </div>
+                                    <a href="https://www.the-village.ru/service-shopping/the-village-guide/rossiyskie-marki-ukrasheniy" class="tabs__button">подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="children" role="tabpanel">
+                    <div class="container-fluid">
+                        <div class="row justify-content-center">
+                            <div class="col-md-6 col-12">
+                                <img src="images/tab-6.webp" alt="" class="tabs__img w-100 h-100">
+                            </div>
+                            <div class="col-md-6 col-11">
+                                <div class="tabs__info d-flex flex-column justify-content-between align-items-start">
+                                    <div>
+                                        <h3 class="tabs__title">Идеальные кроссовки</h3>
+                                        <p class="tabs__description">У Reebok вышла одна из самых трогательных коллабораций этой весны — в партнерстве с Hasbro марка выпустила детскую коллекцию, вдохновленную миром свинки Пеппы, ее семьей и любимыми занятиями.</p>
+                                    </div>
+                                    <a href="https://www.the-village.ru/children/pokupochka/reebok-so-svinkoy-peppoy" class="tabs__button">подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container" id="motivation">
+            <div class="row justify-content-center">
+                <article class="col-lg-10 col-12 content d-flex flex-column align-items-center">
+                    <h2 class="content__title">Мотивации</h2>
+                </article>
+                <div class="col-lg-8 col-md-10 col-12">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion__item">
+                            <div class="accordion__header">
+                                <button class="accordion__button d-flex align-items-center w-100" type="button"
+                                    data-toggle="collapse" data-target="#stive">
+                                    <i class="fab fa-apple accordion__icon"></i>Стив Джобс, CEO и соучредитель Apple Inc.
+                                </button>
+                            </div>
+
+                            <div id="stive" class="collapse show" data-parent="#accordionExample">
+                                <p class="accordion__description">
+                                    Вы должны гореть идеей, или проблемой, или ошибкой, которую вы жаждите исправить. Если в вас недостаточно страсти с самого начала, вы никогда не преуспеете”
+                                </p>
+                            </div>
+                        </div>
+                        <div class="accordion__item">
+                            <div class="accordion__header">
+                                <button class="accordion__button d-flex align-items-center w-100 collapsed"
+                                    type="button" data-toggle="collapse" data-target="#bill">
+                                    <i class="fab fa-windows accordion__icon"></i>Билл Гейтс, соучредитель корпорации Microsoft
+                                </button>
+                            </div>
+
+                            <div id="bill" class="collapse" data-parent="#accordionExample">
+                                <p class="accordion__description">
+                                    Ваши самые недовольные клиенты – ваш самый большой источник обучения
+                                </p>
+                            </div>
+                        </div>
+                        <div class="accordion__item">
+                            <div class="accordion__header">
+                                <button class="accordion__button d-flex align-items-center w-100 collapsed"
+                                    type="button" data-toggle="collapse" data-target="#tom">
+                                    <i class="fal fa-waveform-path accordion__icon"></i>Томас Эдисон, изобретатель
+                                </button>
+                            </div>
+
+                            <div id="tom" class="collapse" data-parent="#accordionExample">
+                                <p class="accordion__description">
+                                    Я не терпел поражений. Я просто нашёл 10 000 способов, которые не работают
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="d-flex flex-column align-items-center">
+        <a class="logo" href="#"><span class="logo__text">Bussines</span> NEWS</a>
+        <ul class="d-flex flex-column flex-sm-row menu align-items-center">
+            <li class="menu__item">
+                <a class="menu__link menu__link_margin" href="#history">история</a>
+            </li>
+            <li class="menu__item">
+                <a class="menu__link menu__link_margin" href="#section">РАЗДЕЛЫ</a>
+            </li>
+            <li class="menu__item">
+                <a class="menu__link menu__link_margin" href="#motivation">Мотивации</a>
+            </li>
+        </ul>
+
+    </footer>
+
+    <script src="js/jquery-3.4.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
